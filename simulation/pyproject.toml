@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "simulation"
+version = "0.1.0"
+description = ""
+authors = ["Kiyoshi Watanabe <kiwatana@hotmail.co.jp>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+simpy = "^4.1.1"
+numpy = "^2.1.2"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
